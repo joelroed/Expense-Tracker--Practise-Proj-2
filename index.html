@@ -14,5 +14,49 @@
       <br />
       <h3><span class="green">Add A New Item:</span></h3>
     </div>
+    <section id="input__section">
+      <div class="row">
+        <div class="input__part">
+          <form id="form">
+            <div class="first__input">
+              <span class="input__titles">Name: </span>
+              <input
+                type="text"
+                placeholder="Where was the expense made?"
+                class="input__expense"
+                id="input__expense--id"
+                required
+              />
+            </div>
+            <br />
+            <div class="second__input">
+              <span class="input__titles">Date:</span>
+              <input
+                type="date"
+                class="input__date"
+                id="input__date--id"
+                required
+              />
+              <span class="input__titles">Amount:</span>
+              <input
+                type="number"
+                class="input__amount"
+                id="input__amount--id"
+                required
+              />
+            </div>
+            <br />
+            <div class="btn__wrapper">
+              <input
+                type="submit"
+                value="Add Expense"
+                class="btn"
+                id="submit__btn"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

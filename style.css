@@ -9,6 +9,11 @@
 }
 
 
+.row {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -28,3 +33,39 @@ h1 {
     font-weight: 400;
 }
 
+.first__input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.input__expense {
+    width: 100%;
+    outline: auto;
+}
+
+.input__date, .input__amount {
+    width: 42.5%;
+    outline: auto;
+}
+
+.input__titles {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 18px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(26, 123, 58);
+    color: #fff;
+}
+
+.btn__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
