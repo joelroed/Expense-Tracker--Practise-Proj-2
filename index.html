@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Expense Tracker</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js"></script>
   </head>
   <body>
     <div class="header">
@@ -25,24 +24,17 @@
                 placeholder="Where was the expense made?"
                 class="input__expense"
                 id="input__expense--id"
-                required
               />
             </div>
             <br />
             <div class="second__input">
               <span class="input__titles">Date:</span>
-              <input
-                type="date"
-                class="input__date"
-                id="input__date--id"
-                required
-              />
+              <input type="date" class="input__date" id="input__date--id" />
               <span class="input__titles">Amount:</span>
               <input
                 type="number"
                 class="input__amount"
                 id="input__amount--id"
-                required
               />
             </div>
             <br />
@@ -64,9 +56,9 @@
             <th></th>
           </tr>
           <tr>
-            <td class="td">1</td>
-            <td>2</td>
-            <td>3</td>
+            <td id="first__output"></td>
+            <td id="second__output"></td>
+            <td id="third__output"></td>
             <td>X</td>
           </tr>
         </table>
@@ -74,3 +66,4 @@
     </section>
   </body>
 </html>
+<script src="index.js"></script>
