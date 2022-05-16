@@ -1,5 +1,5 @@
 let form = document.querySelector('#form');
-
+let table = document.querySelector('#table__output')
 
 form.addEventListener('submit',function(event) {
     event.preventDefault()
@@ -11,10 +11,16 @@ form.addEventListener('submit',function(event) {
     document.querySelector("#second__output").innerHTML = data2 
 
     var data3 = document.querySelector('#input__amount--id').value;
-    document.querySelector("#third__output").innerHTML = data3 
+    document.querySelector("#third__output").innerHTML = "$" + data3 
 
 })
 
+table.addEventListener('button',function(event) {
+    event.preventDefault()
+
+    document.querySelector(".table__output").reset(); 
+
+})
 
 
 

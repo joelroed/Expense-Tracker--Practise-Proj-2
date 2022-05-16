@@ -81,7 +81,7 @@ OUTPUT
 
 
 
-.table__output {
+#table__output {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,3 +107,10 @@ td {
     background-color: rgba(128, 128, 128, 0.288);
 }
 
+.x__btn {
+    border: 1px solid rgb(58, 56, 56);
+    padding: 2px;
+    border-radius: 3px;
+    background-color: #fff;
+    cursor: pointer;
+}
