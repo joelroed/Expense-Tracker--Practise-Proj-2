@@ -5,13 +5,13 @@ form.addEventListener('submit',function(event) {
     event.preventDefault()
 
     var data1 = document.querySelector('#input__expense--id').value;
-    document.querySelector("#first__output").innerHTML += data1
+    document.querySelector("#first__output").innerHTML = data1
 
     var data2 = document.querySelector('#input__date--id').value;
-    document.querySelector("#second__output").innerHTML += data2 
+    document.querySelector("#second__output").innerHTML = data2 
 
     var data3 = document.querySelector('#input__amount--id').value;
-    document.querySelector("#third__output").innerHTML += data3 
+    document.querySelector("#third__output").innerHTML = data3 
 
 })
 
